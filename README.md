@@ -20,8 +20,8 @@ Watch the demo video to understand how it works:
    
 2. Download models:
    -[GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
-   -[Whisper link](https://github.com/openai/whisper)
-   -[Tts link](https://github.com/coqui-ai/TTS)
+   -[whisper link](https://github.com/openai/whisper)
+   -[TTS](https://github.com/coqui-ai/TTS)
    
 3. Recompiling IKFast:
    We have tried both KDL and Trace-IK,neither of these methods could provide fast and accurate solutions.As a result, we chose to use IKFast for better performance and reliability.
