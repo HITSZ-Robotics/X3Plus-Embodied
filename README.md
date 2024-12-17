@@ -23,8 +23,14 @@ Watch the demo video to understand how it works:
    -[GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
    -[whisper link](https://github.com/openai/whisper)
    -[TTS](https://github.com/coqui-ai/TTS)
+
+3. Create a Conda environment
+   ```bash
+   conda create -n embodied_X3 python=3.9
+   conda activate embodied_X3
+   pip install -r requirement.txt
    
-3. Recompiling IKFast:
+4. Recompiling IKFast:
    We have tried both KDL and Trace-IK,neither of these methods could provide fast and accurate solutions.As a result, we chose to use IKFast for better performance and reliability.
    ```bash
    sudo apt-get install ros-melodic-moveit-kinematics
