@@ -10,10 +10,8 @@ The project is developed by the following team members (in alphabetical order):
 - Yang Yanyan  
 - Zhou Zhiling  
 ## Overview
-The following is the code structure of the project:
-![Project Screenshot](images/structure.png)
 Watch the demo video to understand how it works:  
-![Demo](images/demo.gif)
+![Demo](images/output.gif)
 ## Installation
 1. Clone the repository:
    ```bash
@@ -21,11 +19,11 @@ Watch the demo video to understand how it works:
    git clone https://github.com/zzl410/X3Plus-Embodied.git
    
 2. Download models:
-   -![GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
-   -![Whisper link](https://github.com/openai/whisper)
-   -![Tts link](https://github.com/coqui-ai/TTS)
+   -[GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
+   -[Whisper link](https://github.com/openai/whisper)
+   -[Tts link](https://github.com/coqui-ai/TTS)
    
-4. Recompiling IKFast:
+3. Recompiling IKFast:
    We have tried both KDL and Trace-IK,neither of these methods could provide fast and accurate solutions.As a result, we chose to use IKFast for better performance and reliability.
    ```bash
    sudo apt-get install ros-melodic-moveit-kinematics
