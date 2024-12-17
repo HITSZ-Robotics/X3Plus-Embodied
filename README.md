@@ -1,20 +1,17 @@
 # X3Plus-Embodied
-HIT (Shenzhen) 2023 Computer Science Freshman Project: An Embodied Intelligence Path Planning System Based on YahboomCar X3 Plus, open-sourcing the practical achievements of the freshman team.\n
+HIT (Shenzhen) 2023 Computer Science Freshman Project: An Embodied Intelligence Path Planning System Based on YahboomCar X3 Plus.
+## Structure
+The following is the code structure of the project:
+![Project Screenshot](images/structure.png)
 ## Team Members
 The project is developed by the following team members (in alphabetical order):
 - Ma Yujie  
 - Wei Jie  
 - Yang Yanyan  
 - Zhou Zhiling  
-## Table of Contents
-- [Overview](#Overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 ## Overview
 The following is the code structure of the project:
-![Project Screenshot](images/screenshot.png)
+![Project Screenshot](images/structure.png)
 Watch the demo video to understand how it works:  
 ![Demo](images/demo.gif)
 ## Installation
@@ -22,12 +19,14 @@ Watch the demo video to understand how it works:
    ```bash
    cd ~/yahboomcar_ws/src
    git clone https://github.com/zzl410/X3Plus-Embodied.git
-   ```bash
-2. Download GroundingDINO:
-   [GroundingDINO link]([https://www.google.com](https://github.com/IDEA-Research/GroundingDINO))
-3. Recompiling IKFast:
-   We have tried both KDL and Trace-IK, but due to the limited degrees of freedom (DOF) of the robotic arm, neither of these methods could provide fast and accurate solutions.
-   -  As a result, we chose to use IKFast for better performance and reliability.
+   
+2. Download models:
+   -![GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
+   -![Whisper link](https://github.com/openai/whisper)
+   -![Tts link](https://github.com/coqui-ai/TTS)
+   
+4. Recompiling IKFast:
+   We have tried both KDL and Trace-IK,neither of these methods could provide fast and accurate solutions.As a result, we chose to use IKFast for better performance and reliability.
    ```bash
    sudo apt-get install ros-melodic-moveit-kinematics
    source ~/yahboomcar_ws/devel/setup.bash
