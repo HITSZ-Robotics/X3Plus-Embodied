@@ -1,0 +1,3 @@
+pick_object("blue small square object")
+speak("我已经拿起了蓝色小方块。")place_object("blue big box")
+speak("我已经将蓝色小方块放在蓝色的大盒子里。")

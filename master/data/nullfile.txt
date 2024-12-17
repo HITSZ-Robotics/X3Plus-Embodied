@@ -1,0 +1,16 @@
+
+   
+    
+    tornado==6.2
+     tqdm==4.65.0
+     traitlets==5.9.0
+     transformers==4.26.1
+     transforms3d==0.4.1
+     typing-extensions==4.5.0
+     urllib3==1.26.15
+    
+     wcwidth==0.2.6
+     werkzeug==2.2.3
+     widgetsnbextension==4.0.5
+     yarl==1.8.2
+     zipp==3.15.0

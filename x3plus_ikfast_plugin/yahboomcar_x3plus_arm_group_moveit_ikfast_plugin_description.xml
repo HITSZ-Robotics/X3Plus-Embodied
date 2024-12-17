@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library path="lib/libyahboomcar_x3plus_arm_group_moveit_ikfast_plugin">
+  <class base_class_type="kinematics::KinematicsBase" name="yahboomcar_x3plus_arm_group/IKFastKinematicsPlugin" type="yahboomcar_x3plus_arm_group::IKFastKinematicsPlugin">
+    <description>IKFast61 plugin for closed-form kinematics of yahboomcar_x3plus arm_group</description>
+  </class>
+</library>
