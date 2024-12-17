@@ -12,6 +12,7 @@ The project is developed by the following team members (in alphabetical order):
 ## Overview
 Watch the demo video to understand how it works:  
 ![Demo](images/output.gif)
+
 ## Installation
 1. Clone the repository:
    ```bash
@@ -30,5 +31,9 @@ Watch the demo video to understand how it works:
    source ~/yahboomcar_ws/devel/setup.bash
    cd ~/yahboomcar_ws
    catkin_make
-   
-   
+## Usages
+  1. Change the OpenAI API-key in master/speaker.py  master/robotic_exec_generation.py
+  2. Change the ips of the robot and master in get_ip.py
+  3. run the robot/upload_download_server.py
+  4. run the master/upload_download_cilent.py
+  5. run the master/listener.py
