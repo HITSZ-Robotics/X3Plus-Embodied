@@ -1,14 +1,9 @@
 # X3Plus-Embodied
-HIT (Shenzhen) 2023 Computer Science Freshman Project: An Embodied Intelligence Path Planning System Based on YahboomCar X3 Plus.
+HIT (Shenzhen) 2023 Computer Science Project: An Embodied Intelligence Path Planning System Based on YahboomCar X3 Plus.
 ## Structure
 The following is the code structure of the project:
 ![Project Screenshot](images/structure.png)
-## Team Members
-The project is developed by the following team members (in alphabetical order):
-- Ma Yujie  
-- Wei Jie  
-- Yang Yanyan  
-- Zhou Zhiling  
+
 ## Overview
 Watch the demo video to understand how it works:  
 ![Demo](images/output.gif)
