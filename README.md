@@ -17,7 +17,7 @@ Watch the demo video to understand how it works:
 1. Clone the repository:
    ```bash
    cd ~/yahboomcar_ws/src
-   git clone https://github.com/zzl410/X3Plus-Embodied.git
+   git clone https://github.com/HITSZ-Robotics/X3Plus-Embodied.git
    
 2. Download models:
    -[GroundingDINO link](https://github.com/IDEA-Research/GroundingDINO)
